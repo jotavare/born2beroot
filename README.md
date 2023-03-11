@@ -32,6 +32,7 @@ The Born2beroot project is distinct from the programming-focused projects of the
 - Virtual machine installation
 - Debian installation
 - Virtual machine setup
+
 	- Installing sudo & configuration of users and groups
 	- Installing & configuring SSH
 	- Installing & configuring UFW
@@ -46,6 +47,7 @@ The Born2beroot project is distinct from the programming-focused projects of the
 
 - Manual partition
 - Wordpress & services configuration
+
 	- lighttpd
 	- MariaDB
 	- PHP4
