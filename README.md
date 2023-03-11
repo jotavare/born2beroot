@@ -12,8 +12,6 @@
 
 <p align="center">
 	<a href="#about">About</a> •
-	<a href="#mandatory">Mandatory</a> •
-	<a href="#bonus">Bonus</a> •
 	<a href="#tester">Tester</a> •
 	<a href="#license">License</a>
 </p>
@@ -25,33 +23,6 @@ Through this project, we can gain knowledge about various aspects of system admi
 The Born2beroot project is distinct from the programming-focused projects of the 42 curriculum. The project revolves around setting up a Virtual Machine with a size of approximately 30GB, which is encrypted with a passphrase to ensure system security. As a result, the project repository only contains a script programmed to run every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
 
 <a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
-
-## MANDATORY
-
-- Download virtual machine ISO
-- Virtual machine installation
-- Debian installation
-- Virtual machine setup
-
-	- Installing sudo & configuration of users and groups
-	- Installing & configuring SSH
-	- Installing & configuring UFW
-	- Setting up the sudo policies
-	- Setting up the strong password policy
-	- Connecting via SSH
-- Script
-- Crontab
-- Signature.txt
-
-## BONUS
-
-- Manual partition
-- Wordpress & services configuration
-
-	- lighttpd
-	- MariaDB
-	- PHP4
-	- WordPress
 
 ## TESTER
 * <a href="https://github.com/gemartin99/Born2beroot-Tester">Born2beroot Tester</a>
