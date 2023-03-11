@@ -19,7 +19,7 @@
 </p>
 
 ## ABOUT
-This is the first project that doesn't focus much on the programming side of the 42 curriculum.
+This is the first project that doesn't focus much on the programming side of the 42 curriculum.</br>
 Born2beroot delves into the fundamentals of system administration by guiding us through the installation and configuration of a virtual machine. Through this project, we can gain knowledge about various aspects of system administration, including virtualization, partitioning schemes, LVM, command-line software, protocols like SSH, and the significance of securing a system with the help of tools such as sudo, firewalls, and password policies.
 
 <a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
@@ -30,12 +30,12 @@ Born2beroot delves into the fundamentals of system administration by guiding us 
 2. Virtual machine installation
 3. Debian installation
 4. Virtual machine setup
-  4.1 Installing sudo & configuration of users and groups
-  4.2 Installing & configuring SSH
-  4.3 Installing & configuring UFW
-  4.4 Setting up the sudo policies
-  4.5 Setting up the strong password policy
-  4.6 Connecting via SSH
+  * 4.1 Installing sudo & configuration of users and groups
+  * 4.2 Installing & configuring SSH
+  * 4.3 Installing & configuring UFW
+  * 4.4 Setting up the sudo policies
+  * 4.5 Setting up the strong password policy
+  * 4.6 Connecting via SSH
 5. Script
 6. Crontab
 7. Signature.txt
@@ -49,7 +49,7 @@ Born2beroot delves into the fundamentals of system administration by guiding us 
 9.3 PHP4
 9.4 WordPress
 
-## TESTERS
+## TESTER
 * <a href="https://github.com/gemartin99/Born2beroot-Tester">Born2beroot Tester</a>
 
 ## LICENSE
