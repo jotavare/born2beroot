@@ -19,7 +19,7 @@
 </p>
 
 ## ABOUT
-Born2beroot delves into the fundamentals of system administration by guiding us through the installation and configuration of a virtual machine.</br>
+Born2beroot delves into the fundamentals of system administration by guiding us through the installation and configuration of a virtual machine.
 Through this project, we can gain knowledge about various aspects of system administration, including virtualization, partitioning schemes, LVM, command-line software, protocols like SSH, and the significance of securing a system with the help of tools such as sudo, firewalls, and password policies.
 
 The Born2beroot project is distinct from the programming-focused projects of the 42 curriculum. The project revolves around setting up a Virtual Machine with a size of approximately 30GB, which is encrypted with a passphrase to ensure system security. As a result, the project repository contains a script programmed to run every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
