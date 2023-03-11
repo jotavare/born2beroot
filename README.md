@@ -32,12 +32,12 @@ The Born2beroot project is distinct from the programming-focused projects of the
 - Virtual machine installation
 - Debian installation
 - Virtual machine setup
-	- Installing sudo & configuration of users and groups
-	- Installing & configuring SSH
-	- Installing & configuring UFW
-	- Setting up the sudo policies
-	- Setting up the strong password policy
-	- Connecting via SSH
+ - Installing sudo & configuration of users and groups
+ - Installing & configuring SSH
+ - Installing & configuring UFW
+ - Setting up the sudo policies
+ - Setting up the strong password policy
+ - Connecting via SSH
 - Script
 - Crontab
 - Signature.txt
@@ -45,11 +45,11 @@ The Born2beroot project is distinct from the programming-focused projects of the
 ## BONUS
 
 - Manual partition
-- Wordpress & services configuration 🌐
-	- lighttpd
-	- MariaDB
-	- PHP4
-	- WordPress
+- Wordpress & services configuration
+ - lighttpd
+ - MariaDB
+ - PHP4
+ - WordPress
 
 ## TESTER
 * <a href="https://github.com/gemartin99/Born2beroot-Tester">Born2beroot Tester</a>
