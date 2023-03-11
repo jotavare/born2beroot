@@ -19,8 +19,10 @@
 </p>
 
 ## ABOUT
-This is the first project that doesn't focus much on the programming side of the 42 curriculum.</br>
-Born2beroot delves into the fundamentals of system administration by guiding us through the installation and configuration of a virtual machine. Through this project, we can gain knowledge about various aspects of system administration, including virtualization, partitioning schemes, LVM, command-line software, protocols like SSH, and the significance of securing a system with the help of tools such as sudo, firewalls, and password policies.
+Born2beroot delves into the fundamentals of system administration by guiding us through the installation and configuration of a virtual machine.</br>
+Through this project, we can gain knowledge about various aspects of system administration, including virtualization, partitioning schemes, LVM, command-line software, protocols like SSH, and the significance of securing a system with the help of tools such as sudo, firewalls, and password policies.
+
+This is the first project that doesn't focus much on the programming side of the 42 curriculum.
 
 <a href="https://github.com/jotavare/libft/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
 
