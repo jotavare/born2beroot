@@ -25,7 +25,8 @@ The Born2beroot project is distinct from the programming-focused projects of the
 <a href="https://github.com/jotavare/born2beroot/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
 
 ## TESTER
-* <a href="https://github.com/gemartin99/Born2beroot-Tester">Born2beroot Tester</a>
+* <a href="https://github.com/gemartin99/Born2beroot-Tester">Born2beroot Tester</a> ´´gemartin99´´ ´´Debian´´
+* <a href="https://github.com/Pixailz/Born2BeRootTester">Born2beroot Tester</a> ´´Pixailz´´ ´´Debian´´
 
 ## LICENSE
 <p>
