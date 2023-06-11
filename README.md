@@ -24,7 +24,7 @@ Born2beroot is a system administration project focused on setting up a secure vi
 <a href="https://github.com/jotavare/born2beroot/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
 
 ## MANDATORY
-* Be able to choose between two of the most well-known Linux-based operating systems: `Rocky` or `Debian`.
+* Be able to choose between two Linux-based operating systems: `Rocky` or `Debian`.
 * Create LVM partitions to our new VM OS.
 * Ensure SSH services to be running on specific ports.
 * Configure a UFW firewall.
