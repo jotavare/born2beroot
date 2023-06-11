@@ -14,23 +14,46 @@
 
 <p align="center">
 	<a href="#about">About</a> •
-	<a href="#testers">Testers</a> •
+	<a href="#norminette">Norminette</a> •
 	<a href="#license">License</a>
 </p>
 
 ## ABOUT
-Born2beroot delves into the fundamentals of system administration by guiding us through the installation and configuration of a virtual machine.
-Through this project, we can gain knowledge about various aspects of system administration, including virtualization, partitioning schemes, LVM, command-line software, protocols like SSH, and the significance of securing a system with the help of tools such as sudo, firewalls, and password policies.
-
-The Born2beroot project is distinct from the programming-focused projects of the 42 curriculum. The project revolves around setting up a Virtual Machine with a size of approximately 30GB, which is encrypted with a passphrase to ensure system security. As a result, the project repository only contains a script programmed to run every 10 minutes after the virtual machine starts, as well as the virtual machine signature.
+Born2beroot is a system administration project focused on setting up a secure virtual machine. It covers key topics such as virtualization, partitioning, LVM, command-line tools, SSH, and system security measures like sudo, firewalls, and password policies. The project repository includes a script for automated tasks and the virtual machine signature.
 
 <a href="https://github.com/jotavare/born2beroot/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
 
-## TESTERS
-* <a href="https://github.com/gemartin99/Born2beroot-Tester">Born2beroot Tester</a> `gemartin99`
-* <a href="https://github.com/Pixailz/Born2BeRootTester">Born2beroot Tester</a> `Pixailz` `Debian`
+## MANDATORY
+* Be able to choose between two of the most well-known Linux-based operating systems: `Rocky` or `Debian`.
+* Create LVM partitions to our new VM OS.
+* Ensure SSH services to be running on specific ports.
+* Configure a UFW firewall.
+* Set-up the hostname and a strong password policy for all users;
+* Set-up a strong configuration for the sudo group;
+* Create a monitoring script that displays some specific information every 10 minutes.
+
+## BONUS
+* Set up a different memory partitioning.
+* Set up a functional WordPress website with specific services.
+* Set up a service of our own choice - and justify that choice.
+
+## NORMINETTE
+At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
+
+```
+- No for, do...while, switch, case, goto, ternary operators and variable lenght arrays are allowed
+- Each function must be maximum 25 lines, not counting the function's own curly brackets
+- Each line must be at most 80 columns wide, comments included
+- A function can take 4 named parameters maximum
+- No assigns and declarations in the same line (unless static)
+- You can't declare more than 5 variables per function
+- ...
+```
+
+<a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
 
 ## LICENSE
 <p>
 This work is published under the terms of <a href="https://github.com/jotavare/jotavare/blob/main/LICENSE">42 Unlicense</a>.
 </p>
+
