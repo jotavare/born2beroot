@@ -27,7 +27,7 @@ Born2beroot is a system administration project focused on setting up a secure vi
 > During evaluation, i was asked questions about the topics bellow.
 - [x] Choose between two Linux-based operating systems: `Rocky` or `Debian`.
 - [x] Create at least 2 encrypted partitions using `LVM`.
-- [x] Ensure `SSH services` to be running on specific ports (`4242`).
+- [x] Ensure `SSH services` to be running on specific ports.
 - [x] Configure a `UFW firewall` and leave only port `4242` open.
 - [x] Set-up the `hostname` (will be changed during evaluation) and a strong `password policy` for all users.
 - [x] Set-up a strong `sudo` configuration.
