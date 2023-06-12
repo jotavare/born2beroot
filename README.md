@@ -24,18 +24,20 @@ Born2beroot is a system administration project focused on setting up a secure vi
 <a href="https://github.com/jotavare/born2beroot/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
 
 ## MANDATORY
-* Be able to choose between two Linux-based operating systems: `Rocky` or `Debian`.
-* Create LVM partitions to our new VM OS.
-* Ensure SSH services to be running on specific ports.
-* Configure a UFW firewall.
-* Set-up the hostname and a strong password policy for all users;
-* Set-up a strong configuration for the sudo group;
-* Create a monitoring script that displays some specific information every 10 minutes.
+> During evaluation, i was asked questions about the topics bellow.
+- [x] Choose between two Linux-based operating systems: `Rocky` or `Debian`.
+- [x] Create at least 2 encrypted partitions using `LVM`.
+- [x] Ensure `SSH services` to be running on specific ports (`4242`).
+- [x] Configure a `UFW firewall` and leave only port `4242` open.
+- [x] Set-up the `hostname` (will be changed during evaluation) and a strong `password policy` for all users.
+- [x] Set-up a strong `sudo` configuration.
+- [x] Create a `monitoring script` that displays specific information every 10 minutes at server startup.
 
 ## BONUS
-* Set up a different memory partitioning.
-* Set up a functional WordPress website with specific services.
-* Set up a service of our own choice - and justify that choice.
+> During evaluation, also had to justify my choices.
+- [x] Set up a different partition structure.
+- [x] Set up a functional `WordPress` website with the following services: `lighttpd`, `MariaDB` and `PHP`.
+- [x] Set up a service of my own choice that i think its useful (justify that choice).
 
 ## NORMINETTE
 At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
