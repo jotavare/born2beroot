@@ -24,23 +24,23 @@ This system administration project focuses on setting up a secure virtual machin
 <a href="https://github.com/jotavare/born2beroot/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
 
 ## MANDATORY
-> During the evaluation, I was asked questions about the topics below.
-- [x] Choose between two Linux-based operating systems: `Rocky` or `Debian`.
-- [x] Create at least 2 encrypted partitions using `LVM`.
-- [x] Ensure `SSH services` are running on specific ports.
-- [x] Configure a `UFW firewall` and leave only port `4242` open.
-- [x] Set up the `hostname` (will be changed during evaluation) and a strong `password policy` for all users.
-- [x] Set up a strong `sudo` configuration.
-- [x] Create a `monitoring script` that displays specific information every 10 minutes at server startup.
+> During the evaluation, I was asked questions about the topics below;
+- [x] Choose between two Linux-based operating systems: `Rocky` or `Debian`;
+- [x] Create at least 2 encrypted partitions using `LVM`;
+- [x] Ensure `SSH services` are running on specific ports;
+- [x] Configure a `UFW firewall` and leave only port `4242` open;
+- [x] Set up the `hostname` (will be changed during evaluation) and a strong `password policy` for all users;
+- [x] Set up a strong `sudo` configuration;
+- [x] Create a `monitoring script` that displays specific information every 10 minutes at server startup;
 
 ## BONUS
-> During the evaluation, also had to justify my choices.
-- [x] Set up a different partition structure.
-- [x] Set up a functional `WordPress` website with the following services: `lighttpd`, `MariaDB` and `PHP`.
-- [x] Set up a service of my own choice that I think is useful (justify that choice).
+> During the evaluation, also had to justify my choices;
+- [x] Set up a different partition structure;
+- [x] Set up a functional `WordPress` website with the following services: `lighttpd`, `MariaDB` and `PHP`;
+- [x] Set up a service of my own choice that I think is useful (justify that choice);
 
 ## NORMINETTE
-At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
+> At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
 
 ```
 - No for, do...while, switch, case, goto, ternary operators, or variable-length arrays allowed;
