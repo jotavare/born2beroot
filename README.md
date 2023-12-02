@@ -58,5 +58,5 @@ This system administration project focuses on setting up a secure virtual machin
 
 ## LICENSE
 <p>
-This work is published under the terms of <a href="https://github.com/jotavare/born2beroot/blob/main/LICENSE">Unlicense</a>.
+This work is published under the terms of <a href="https://github.com/jotavare/born2beroot/blob/master/LICENSE">Unlicense</a>.
 </p>
