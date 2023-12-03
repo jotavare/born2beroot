@@ -21,7 +21,8 @@
 ## ABOUT
 This system administration project focuses on setting up a secure virtual machine. It covers key topics such as virtualization, partitioning, LVM, command-line tools, SSH, and system security measures like sudo, firewalls, and password policies. The project repository includes a script for automated tasks and the virtual machine signature.
 
-<a href="https://github.com/jotavare/born2beroot/blob/master/subject/en_subject_born2beroot.pdf">Click here</a> for the subject of this project.
+- [Subject](https://github.com/jotavare/born2beroot/blob/master/subject/en_subject_born2beroot.pdf) `PDF`
+- [References](https://github.com/jotavare/42-resources#01-born2beroot) `GitHub`
 
 ## MANDATORY
 > During the evaluation, I was asked questions about the topics below;
