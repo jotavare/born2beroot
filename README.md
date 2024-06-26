@@ -17,6 +17,7 @@
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
 	<a href="#norminette">Norminette</a> •
+	<a href="#contributing">Contributing</a> •
 	<a href="#license">License</a>
 </p>
 
@@ -59,7 +60,10 @@ This system administration project focuses on setting up a secure virtual machin
 * [Norminette](https://github.com/42School/norminette) - Tool to respect the code norm, made by 42. `GitHub`
 * [42 Header](https://github.com/42Paris/42header) - 42 header for Vim. `GitHub`
 
+## CONTRIBUTING
+
+If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+
 ## LICENSE
-<p>
-This work is published under the terms of <a href="https://github.com/jotavare/born2beroot/blob/master/LICENSE">Unlicense</a>.
-</p>
+
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/born2beroot/blob/main/LICENSE) file.
