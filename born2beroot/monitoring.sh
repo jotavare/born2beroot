@@ -1,3 +1,4 @@
+#!/bin/bash
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
@@ -10,8 +11,6 @@
 #                                                                              #
 # **************************************************************************** #
 
-#!/bin/bash
-
 while true; do
   # Display banner (optional)
   echo "--- Server Monitoring ---" | wall
@@ -19,7 +18,7 @@ while true; do
   # Get system information
   architecture=$(uname -m)
   kernel=$(uname -r)
-  num_physical_processors=$(grep -c ^processor /proc/cpuinfo)
+  num_physical_processors=$(grep "physical id" /proc/cpuinfo | sort -u | wc -l)
   num_virtual_processors=$(grep -c ^processor /proc/cpuinfo)
   available_ram=$(awk '/MemAvailable/ {printf "%.0fMB\n", $2/1024}' /proc/meminfo)
   ram_utilization=$(free | awk 'NR==2{printf "%.2f%%\n", $3*100/$2 }')

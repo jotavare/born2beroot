@@ -16,13 +16,16 @@
 	<a href="#about">About</a> •
 	<a href="#mandatory">Mandatory</a> •
 	<a href="#bonus">Bonus</a> •
-	<a href="#norminette">Norminette</a> •
+	<a href="#monitoring-script">Monitoring script</a> •
 	<a href="#contributing">Contributing</a> •
 	<a href="#license">License</a>
 </p>
 
 ## ABOUT
 This system administration project focuses on setting up a secure virtual machine. It covers key topics such as virtualization, partitioning, LVM, command-line tools, SSH, and system security measures like sudo, firewalls, and password policies. The project repository includes a script for automated tasks and the virtual machine signature.
+
+> [!NOTE]
+> For the rest of the projects and exams in the cursus, <a href="https://github.com/jotavare/42-common-core">click here</a>.
 
 ## MANDATORY
 > During the evaluation, I was asked questions about the topics below;
@@ -40,27 +43,43 @@ This system administration project focuses on setting up a secure virtual machin
 - [x] Set up a functional `WordPress` website with the following services: `lighttpd`, `MariaDB` and `PHP`;
 - [x] Set up a service of my own choice that I think is useful (justify that choice);
 
-## NORMINETTE
-> At 42 School, it is expected that almost every project is written following the Norm, which is the coding standard of the school.
+## MONITORING SCRIPT
+> `monitoring.sh` broadcasts the machine's state to every open terminal with
+> `wall`, every ten minutes, driven by a cron entry.
 
-```
-- No for, do...while, switch, case, goto, ternary operators, or variable-length arrays allowed;
-- Each function must be a maximum of 25 lines, not counting the function's curly brackets;
-- Each line must be at most 80 columns wide, with comments included;
-- A function can take 4 named parameters maximum;
-- No assigns and declarations in the same line (unless static);
-- You can't declare more than 5 variables per function;
-- ...
+| Reported | Source |
+| :- | :- |
+| Architecture and kernel | `uname -m`, `uname -r` |
+| Physical processors | Distinct `physical id` entries in `/proc/cpuinfo` |
+| Virtual processors | `^processor` lines in `/proc/cpuinfo` |
+| RAM available and used | `/proc/meminfo`, `free` |
+| Disk available and used | `df -h` on `/` |
+| Processor load | `top -bn2` |
+| Last reboot | `uptime -s` |
+| LVM active | `systemctl is-active lvm2-lvmetad` |
+| Active connections | `ss -s` |
+| Users logged in | `who` |
+| IPv4 and MAC | `ip addr`, `ip link` |
+| sudo commands run | `/var/log/auth.log` |
+
+Check it before relying on it:
+
+```bash
+bash -n born2beroot/monitoring.sh   # syntax only, runs nothing
+bash born2beroot/monitoring.sh      # needs a terminal to write to
 ```
 
-* [42 Norms](https://github.com/42School/norminette/blob/master/pdf/en.norm.pdf) - Information about 42 code norms. `PDF`
-* [Norminette](https://github.com/42School/norminette) - Tool to respect the code norm, made by 42. `GitHub`
-* [42 Header](https://github.com/42Paris/42header) - 42 header for Vim. `GitHub`
+`shellcheck born2beroot/monitoring.sh` - Catches quoting and portability
+problems the shell itself will not complain about.
+
+* [ShellCheck](https://www.shellcheck.net/) - Shell script static analysis. `Website`
+* [Debian Handbook](https://debian-handbook.info/) - Administration reference. `Website`
 
 ## CONTRIBUTING
 
-If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+This repository documents work already submitted and graded, so it is not open
+to changes. Feel free to fork it if any of it is useful to you.
 
 ## LICENSE
 
-This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/born2beroot/blob/master/LICENSE) file.
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/born2beroot/blob/main/LICENSE) file.
