@@ -1,8 +1,15 @@
 *.pdf
 *.swp
-*~
 
 # Editor and OS droppings.
 .vscode/
 .idea/
+*~
 .DS_Store
+Thumbs.db
+
+# Never commit credentials.
+.env
+.env.*
+*.pem
+*.key
