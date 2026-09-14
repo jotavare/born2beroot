@@ -33,7 +33,7 @@ while true; do
   num_users=$(who | wc -l)
   ipv4_address=$(ip -4 addr show eth0 | grep -oP "(?<=inet ).*(?=/)")
   mac_address=$(ip link show eth0 | grep -oP "(?<=link/ether ).*(?= brd)")
-  num_sudo_commands=$(grep -c "sudo" /var/log/auth.log)
+  num_sudo_commands=$(grep -c "sudo:.*COMMAND=" /var/log/auth.log)
 
   # Display information on all terminals
   echo "Operating system architecture: $architecture" | wall
