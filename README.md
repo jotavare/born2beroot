@@ -56,7 +56,7 @@ This system administration project focuses on setting up a secure virtual machin
 | Disk available and used | `df -h` on `/` |
 | Processor load | `top -bn2` |
 | Last reboot | `uptime -s` |
-| LVM active | `systemctl is-active lvm2-lvmetad` |
+| LVM active | Active logical volumes via `lvs` |
 | Active connections | `ss -s` |
 | Users logged in | `who` |
 | IPv4 and MAC | `ip addr`, `ip link` |
