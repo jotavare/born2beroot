@@ -28,12 +28,12 @@ while true; do
                             sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | \
                             awk '{print 100 - $1"%"}')
   last_reboot=$(uptime -s)
-  lvm_active=$(systemctl is-active lvm2-lvmetad.service)
+  lvm_active=$(if [ "$(lvs --noheadings 2>/dev/null | wc -l)" -gt 0 ]; then echo "yes"; else echo "no"; fi)
   active_connections=$(ss -s | grep -o "[0-9]* active connections established")
   num_users=$(who | wc -l)
   ipv4_address=$(ip -4 addr show eth0 | grep -oP "(?<=inet ).*(?=/)")
   mac_address=$(ip link show eth0 | grep -oP "(?<=link/ether ).*(?= brd)")
-  num_sudo_commands=$(grep "sudo" /var/log/auth.log | wc -l)
+  num_sudo_commands=$(grep -c "sudo" /var/log/auth.log)
 
   # Display information on all terminals
   echo "Operating system architecture: $architecture" | wall
